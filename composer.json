@@ -1,0 +1,33 @@
+{
+    "name": "gooody/flow-arena-switch-decision-module",
+    "type": "library",
+    "license": "MIT",
+    "extra": {
+        "flow-arena-module": true,
+        "module-name": "Switch decision",
+        "module-provider": "FlowArenaModule\\SwitchDecision\\SwitchDecisionModule"
+    },
+    "version": "0.1.0",
+    "autoload": {
+        "psr-4": {
+            "FlowArenaModule\\SwitchDecision\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gooody",
+            "email": "gooody29@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:gooodyteam/flow-arena-addon-common.git"
+        }
+    ],
+    "require": {
+        "php": "^8.4",
+        "symfony/expression-language": "^8.0",
+        "gooody/flow-arena-addon-common": "dev-master"
+    }
+}
